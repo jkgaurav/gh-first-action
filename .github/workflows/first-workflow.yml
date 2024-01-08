@@ -1,5 +1,5 @@
 name: Greet Everyone # Name of the workflow
-on: [push] # trigger to execute workflow
+on: [push, workflow_dispatch] # trigger to execute workflow
 jobs:
   greeting: # Name of my first job, custom identifier
     runs-on: ubuntu-latest
